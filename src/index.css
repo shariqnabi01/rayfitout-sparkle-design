@@ -6,57 +6,57 @@
 
 @layer base {
   :root {
-    /* Core Brand Colors */
-    --background: 0 0% 98%;
-    --foreground: 220 13% 9%;
+    /* Core Brand Colors - Dark luxury theme matching rayfitout.com */
+    --background: 0 0% 7%;
+    --foreground: 0 0% 95%;
 
     /* Card System */
-    --card: 0 0% 100%;
-    --card-foreground: 220 13% 9%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 95%;
 
     /* Popover System */
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 13% 9%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 95%;
 
-    /* Primary Brand Colors - Deep sophisticated blues */
-    --primary: 220 13% 9%;
-    --primary-foreground: 0 0% 98%;
+    /* Primary Brand Colors - Rayfitout dark theme */
+    --primary: 0 0% 95%;
+    --primary-foreground: 0 0% 7%;
 
-    /* Secondary - Warm elegant tones */
-    --secondary: 25 20% 92%;
-    --secondary-foreground: 220 13% 9%;
+    /* Secondary - Dark sophisticated tones */
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 95%;
 
     /* Muted tones for subtle elements */
-    --muted: 220 13% 95%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 65%;
 
     /* Accent - Warm bronze/gold for luxury feel */
-    --accent: 35 30% 75%;
-    --accent-foreground: 220 13% 9%;
+    --accent: 35 45% 70%;
+    --accent-foreground: 0 0% 15%;
 
     /* Aluminum specific colors */
-    --aluminum-light: 210 20% 92%;
-    --aluminum-medium: 210 15% 80%;
-    --aluminum-dark: 210 25% 25%;
+    --aluminum-light: 0 0% 85%;
+    --aluminum-medium: 0 0% 60%;
+    --aluminum-dark: 0 0% 25%;
 
     /* Status colors */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     /* Interface elements */
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 220 13% 9%;
+    --border: 0 0% 25%;
+    --input: 0 0% 15%;
+    --ring: 35 45% 70%;
 
     /* Luxury gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(220 13% 9%) 0%, hsl(210 25% 25%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 13% 98%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(35 30% 85%) 0%, hsl(25 20% 92%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 5%) 0%, hsl(0 0% 15%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 7%) 0%, hsl(0 0% 12%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(35 45% 70%) 0%, hsl(25 35% 60%) 100%);
 
     /* Shadows for depth */
-    --shadow-luxury: 0 25px 50px -12px hsl(220 13% 9% / 0.25);
-    --shadow-gentle: 0 4px 15px -2px hsl(220 13% 9% / 0.1);
-    --shadow-aluminum: 0 8px 25px -5px hsl(210 25% 25% / 0.2);
+    --shadow-luxury: 0 25px 50px -12px hsl(0 0% 0% / 0.5);
+    --shadow-gentle: 0 4px 15px -2px hsl(0 0% 0% / 0.3);
+    --shadow-aluminum: 0 8px 25px -5px hsl(0 0% 0% / 0.4);
 
     /* Animations */
     --transition-luxury: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -69,70 +69,38 @@
     --animate-slide-up: slideUp 0.6s ease-out forwards;
     --animate-scale-in: scaleIn 0.4s ease-out forwards;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 0 0% 7%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 0 0% 95%;
+    --sidebar-primary-foreground: 0 0% 7%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 35 45% 70%;
   }
 
-  .dark {
-    /* Dark mode for luxury aluminum systems */
-    --background: 220 13% 9%;
-    --foreground: 0 0% 98%;
-
-    --card: 220 25% 12%;
-    --card-foreground: 0 0% 98%;
-
-    --popover: 220 25% 12%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 0 0% 98%;
-    --primary-foreground: 220 13% 9%;
-
-    --secondary: 220 25% 16%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 220 25% 16%;
-    --muted-foreground: 220 13% 65%;
-
-    --accent: 35 30% 65%;
-    --accent-foreground: 220 13% 9%;
-
-    /* Dark aluminum variants */
-    --aluminum-light: 210 20% 25%;
-    --aluminum-medium: 210 15% 35%;
-    --aluminum-dark: 210 25% 15%;
-
-    --destructive: 0 62.8% 50%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 220 25% 16%;
-    --input: 220 25% 16%;
-    --ring: 35 30% 65%;
-
-    /* Dark gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(220 13% 9%) 0%, hsl(220 25% 16%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(220 25% 12%) 0%, hsl(220 13% 9%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(35 30% 65%) 0%, hsl(35 25% 55%) 100%);
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+  .light {
+    /* Light mode override (rarely used for Rayfitout brand) */
+    --background: 0 0% 98%;
+    --foreground: 0 0% 7%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 7%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 7%;
+    --primary: 0 0% 7%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 7%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 35 45% 50%;
+    --accent-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 35 45% 50%;
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 95%) 0%, hsl(0 0% 85%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(0 0% 98%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(35 45% 85%) 0%, hsl(25 35% 75%) 100%);
   }
 }
 
@@ -142,7 +110,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-mont;
     scroll-behavior: smooth;
   }
 
