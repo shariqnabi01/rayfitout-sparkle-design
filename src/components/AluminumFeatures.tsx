@@ -25,7 +25,7 @@ const AluminumFeatures = () => {
  
 
   return (
-    <section className="py-24 bg-gradient-subtle">
+    <section className="  py-24 bg-gradient-subtle">
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
