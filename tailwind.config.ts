@@ -39,6 +39,11 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        aluminum: {
+          light: "hsl(var(--aluminum-light))",
+          medium: "hsl(var(--aluminum-medium))",
+          dark: "hsl(var(--aluminum-dark))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
@@ -57,6 +62,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-subtle': 'var(--gradient-subtle)',
+        'gradient-accent': 'var(--gradient-accent)',
+      },
+      boxShadow: {
+        'luxury': 'var(--shadow-luxury)',
+        'gentle': 'var(--shadow-gentle)',
+        'aluminum': 'var(--shadow-aluminum)',
+      },
+      transitionProperty: {
+        'luxury': 'var(--transition-luxury)',
+        'smooth': 'var(--transition-smooth)',
       },
       borderRadius: {
         lg: "var(--radius)",
